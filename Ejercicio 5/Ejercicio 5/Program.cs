@@ -16,8 +16,7 @@ namespace Ejercicio_5
 
             for (int z = 0; z < l; z++)
             {
-                try
-                {
+                
                     Console.WriteLine("\nImpresion de numeros del 1 al 30.");
                     
 
@@ -35,12 +34,7 @@ namespace Ejercicio_5
                     }               
 
                 }
-                catch (Exception)
-                {
-                    l++;
-                    Console.WriteLine($" \n\nPor favor ingrese un numero sin decimales");
-
-                }
+                
 
             }
 
